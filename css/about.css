@@ -1,0 +1,115 @@
+.text-container-about {
+    display: flex;
+    justify-content: center;
+    /* background-color: blue; */
+    margin-top: 60px;
+}
+
+.text-about-border {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* padding: 0 20px 0 20px; */
+    background-color: #4A4A4A;
+    height: auto;
+    width: 70%;
+}
+
+/* .pb-img {
+    background-image: url(../img/pb.png);
+} */
+
+.pb {
+    display: flex;
+    /* padding-bottom: 50%; */
+    justify-content: center;
+    align-items: center;
+    /* background-size: cover;
+    background-repeat: no-repeat; */
+}
+.pb img {
+    width: 320px;
+    height: auto;
+    /* background-color: red; */
+    padding-left: 25px;
+}
+
+.profile-text {
+    font-family: 'futura-medium', Fallback, sans-serif;
+    text-align: center;
+    letter-spacing: 0.5px;
+    line-height: 40px;
+    font-size: 20pt;
+    font-weight: normal;
+    color: white;
+    width: 50%;
+    margin: 80px 0 80px 0;
+    /* padding: 0 40px 0 40px; */
+    /* background-color: red; */
+    padding: 0 25px 0 40px;
+}
+
+.content-about {
+    display: flex;
+    justify-content: center;
+    width: 70%;
+    /* overflow: hidden; */
+    margin: auto;
+}
+
+.all-about-in-one {
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+width: 100%;
+}
+
+.about:nth-child(odd) {
+    margin-right: 5px;
+    margin-top: 10px;
+}
+
+.about:nth-child(even) {
+    margin-left: 5px;
+    margin-top: 10px;
+}
+
+.info {
+    background: url(../img/About/Infos/about.png);
+}
+
+.education {
+    background: url(../img/About/Education/education.png);
+}
+
+.experience {
+    background: url(../img/About/Experience/EXPERIENCE.png)
+}
+
+.skills {
+    background: url(../img/about/Skills/SKILLS.png)
+}
+
+.about {
+    width: calc(50% - 5px);
+    display: flex;
+    padding-bottom: 50%;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* .about:hover {
+    filter: blur(3px);
+    margin: 5px;
+    width: calc(50% - 10px);
+    padding-bottom: calc(50% - 10px);
+} */
+
+.about:hover {
+    -webkit-box-shadow: -8px 9px 8px -5px rgba(0,0,0,0.55);
+    -moz-box-shadow: -8px 9px 8px -5px rgba(0,0,0,0.55);
+    box-shadow: -8px 9px 8px -5px rgba(0,0,0,0.55);
+    transform: scale(1.02);
+}

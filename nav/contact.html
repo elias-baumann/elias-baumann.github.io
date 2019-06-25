@@ -1,0 +1,102 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <title>Portfolio Elias</title>
+  <meta name="description" content="as">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="apple-touch-icon" href="icon.png">
+  <!-- Place favicon.ico in the root directory -->
+
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="../css/main.css">
+  <link rel="stylesheet" href="../css/contact.css">
+  <link rel="stylesheet" href="../css/responsive.css">
+
+  <meta name="theme-color" content="#fafafa">
+</head>
+
+<body>
+  <!--[if IE]>
+    <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+  <![endif]-->
+
+  <p class="title-contact">GET IN TOUCH</p>
+
+  <div class="nav">
+    <a href="../index.html" class="nav-box">
+      <img src="../img/home.png" alt="Home Icon">
+      <p class="nav-text">Home</p>
+    </a>
+    <a href="/nav/work.html" class="nav-box">
+      <img src="../img/work.png">
+      <p class="nav-text">Work</p>
+    </a>
+    <a href="/nav/about.html" class="nav-box">
+      <img src="../img/about.png">
+      <p class="nav-text">About</p>
+    </a>
+    <a href="/" class="nav-box">
+      <img src="../img/contact.png">
+      <p class="nav-text">Contact</p>
+    </a>
+  </div>
+
+  <!-- <form >
+    First name: <input type="text" name="fname"><br>
+    Last name: <input type="text" name="lname"><br>
+    <input type="submit" value="Submit">
+  </form> -->
+
+  <form action="https://formspree.io/elias.baumann@gmx.ch" method="POST" class="content-form">
+    <div class="form">
+      <div class="f f-name">
+        <p class="form-p">Name</p>
+        <input placeholder="" class="input-name input" type="text" name="lname" required>
+      </div>
+      <div class="f f-vorname">
+        <p class="form-p">Vorname</p>
+        <input placeholder="" class="input-vorname input" type="text" name="fname" required>
+      </div>
+      <div class="f f-email">
+        <p class="form-p">E-mail</p>
+        <input placeholder="" class="input-email input" type="email" name="email" required>
+      </div>
+      <div class="f f-company">
+        <p class="form-p">Company</p>
+        <input placeholder="" class="input-company input" type="text" name="company">
+      </div>
+      <div class="f-message">
+        <p class="form-p">Narchricht</p>
+        <textarea class="textarea" rows="8"></textarea>
+      </div>
+      <input class="senden" type="submit" value="SENDEN">
+      <input type="hidden" name="_next" value="/"/>
+
+      <!-- <div class="f-button">
+        button 
+      </div> -->
+      
+    </div>
+  </form>
+    
+  <footer class="footer">
+    <div class="all-three">
+      <div class="email">
+        <a href="mailto:elias.baumann@gmx.ch">elias.baumann@gmx.ch</a>
+      </div>
+      <div class="line"></div>
+      <div class="number">
+        <p>079 624 70 30</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- why is the footer like this ugly? -->
+
+</body>
+
+</html>

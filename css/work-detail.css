@@ -1,0 +1,77 @@
+.title-bbq {
+    margin-top: 100px;
+    padding-bottom: 50px;
+    text-align: center;
+    font-size: 32pt;
+    font-weight: bold;
+    font-family: 'futura-bold', Fallback, sans-serif;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    margin: auto;
+    /* padding-bottom: 60px; */
+    padding-top: 20px;
+}
+
+.bbq-bild {
+    background: url(../img/Work/BBQ/bbq.jpg);
+}
+
+.oaff-bild {
+    background: url(../img/Work/OAFF/oaff.jpg);
+}
+
+.christmas-bild {
+    background: url(../img/Work/christmas/christmas.png);
+}
+
+.website-bild {
+    background: url(../img/Work/website/website.png);
+}
+
+.cv-bild {
+    background: url(../img/Work/cv/cv.png);
+}
+
+.deutsch-bild {
+    background: url(../img/Work/deutsch/deutsch.png);
+}
+
+.manual-bild
+{
+    background: url(../img/Work/manual/manual.png);
+}
+
+.work-bild {
+    width: calc(50% - 20px);
+    height: auto;
+    /* width: 50%; */
+    display: flex;
+    padding-bottom: 50%;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background-color: red; */
+    padding-right: 20px;
+    -webkit-box-shadow: -8px 9px 8px -5px rgba(0,0,0,0.55);
+    -moz-box-shadow: -8px 9px 8px -5px rgba(0,0,0,0.55);
+    box-shadow: -8px 9px 8px -5px rgba(0,0,0,0.55);
+}
+
+.work-text {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: calc(50% - 70px);
+    height: atuo;
+    margin-left: 70px;
+    font-family: 'avenir-light', Fallback, sans-serif;
+    font-size: 20px;
+    letter-spacing: 0.5px;
+    line-height: 21pt;
+}

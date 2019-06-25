@@ -1,0 +1,100 @@
+.title-bbq {
+    margin-top: 100px;
+    padding-bottom: 50px;
+    text-align: center;
+    font-size: 32pt;
+    font-weight: bold;
+    font-family: 'futura-bold', Fallback, sans-serif;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    margin: auto;
+    padding-bottom: 60px;
+    padding-top: 20px;
+}
+
+.education-bild {
+    background: url(../img/About/Education/education.png);
+}
+
+.info-bild {
+    background: url(../img/About/Infos/about.png);
+}
+
+.experience-bild {
+    background: url(../img/About/Experience/EXPERIENCE.png);
+}
+
+.skills-bild {
+    background: url(../img/About/Skills/SKILLS.png);
+}
+.about-bild {
+    width: calc(50% - 20px);
+    height: auto;
+    /* width: 50%; */
+    display: flex;
+    padding-bottom: 50%;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background-color: red; */
+    padding-right: 20px;
+    -webkit-box-shadow: -8px 9px 8px -5px rgba(0,0,0,0.55);
+    -moz-box-shadow: -8px 9px 8px -5px rgba(0,0,0,0.55);
+    box-shadow: -8px 9px 8px -5px rgba(0,0,0,0.55);
+}
+
+.about-text {
+    display: block;
+    width: calc(50% - 70px);
+    height: atuo;
+    margin-left: 70px;
+    font-size: 20px;
+    letter-spacing: 0.5px;
+    line-height: 21pt;
+}
+
+.bold {
+    margin: 0;
+    font-family: 'avenir-bold', Fallback, sans-serif;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+.light {
+    font-family: 'avenir-light', Fallback, sans-serif;
+    margin: 0;
+    font-weight: lighter;
+    /* padding-bottom: 60px; */
+}
+
+.break {
+    margin: 50px 0 50px 0;
+}
+
+.title-bar {
+    display: block; 
+    width: 100%;  
+}
+
+.bar-border {
+    width: 75%;
+
+    /* height: 6px;
+    border-color: #4A4A4As;
+    border-style: solid;
+    border-width: 1.5px; */
+
+    height: 5px;
+    background-color: rgb(219, 219, 219);
+}
+
+.bar-fill {
+    background-color: #4A4A4A;
+    height: 100%;
+}
