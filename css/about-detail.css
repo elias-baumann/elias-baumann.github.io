@@ -18,20 +18,21 @@
 }
 
 .education-bild {
-    background: url(../img/About/Education/education.png);
+    background: url(../img/about/education/education.png);
 }
 
 .info-bild {
-    background: url(../img/About/Infos/about.png);
+    background: url(../img/about/infos/about.png);
 }
 
 .experience-bild {
-    background: url(../img/About/Experience/EXPERIENCE.png);
+    background: url(../img/about/experience/experience.png);
 }
 
 .skills-bild {
-    background: url(../img/About/Skills/SKILLS.png);
+    background: url(../img/about/skills/skills.png);
 }
+
 .about-bild {
     width: calc(50% - 20px);
     height: auto;
