@@ -76,15 +76,15 @@ width: 100%;
 }
 
 .info {
-    background: url(../img/About/Infos/about.png);
+    background: url(../img/about/Infos/about.png);
 }
 
 .education {
-    background: url(../img/About/Education/education.png);
+    background: url(../img/about/Education/education.png);
 }
 
 .experience {
-    background: url(../img/About/Experience/EXPERIENCE.png)
+    background: url(../img/about/Experience/EXPERIENCE.png)
 }
 
 .skills {

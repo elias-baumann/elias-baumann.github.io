@@ -76,19 +76,19 @@
 }
 
 .website {
-    background: url(../img/Work/website/website.png);
+    background: url(../img/work/website/website.png);
 }
 
 .cv {
-    background: url(../img/Work/cv/cv.png);
+    background: url(../img/work/cv/cv.png);
 }
 
 .deutsch {
-    background: url(../img/Work/deutsch/deutsch.png);
+    background: url(../img/work/deutsch/deutsch.png);
 }
 
 .manual {
-    background: url(../img/Work/manual/manual.png);
+    background: url(../img/work/manual/manual.png);
 }
 .work {
     width: calc(50% - 5px);
