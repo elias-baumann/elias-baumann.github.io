@@ -32,6 +32,7 @@
     height: auto;
     /* background-color: red; */
     padding-left: 25px;
+    padding-right: 25px;
 }
 
 .profile-text {
@@ -46,7 +47,7 @@
     margin: 80px 0 80px 0;
     /* padding: 0 40px 0 40px; */
     /* background-color: red; */
-    padding: 0 25px 0 40px;
+    /* padding: 0 25px 0 40px; */
 }
 
 .content-about {

@@ -8,6 +8,7 @@
         height: auto;
         padding-top: 40px;
         padding-left: 0;
+        padding-right: 0;
     }
     .profile-text {
         width: 80%;
@@ -90,7 +91,6 @@
     .number p {
         font-size: 9pt;
     }
-
     .text-work {
         font-size: 15pt;
         line-height: normal;
